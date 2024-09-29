@@ -53,6 +53,16 @@ gulp.task('default', function() {
 	.pipe(gulp.dest('web/css'));
 });
 
+gulp.task('sass:watch', function () {
+  gulp.watch([
+    './scss/*.scss',
+    './scss/**/*.scss',
+    './templates/patterns/**/*',
+    './templates/patterns/**/*.scss',
+    './js-src/*.js',
+  ], gulp.series(['build']));
+});
+
 gulp.task('build', gulp.series([
   'sass',
   'cssmin',

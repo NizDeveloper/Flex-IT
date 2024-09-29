@@ -298,13 +298,13 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       #e60012 !default;
+$primary:       #0aaff4 !default;
 $secondary:     #0b2b6b !default;
 $tertiary:      #d6f0fa !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
+$success:       $green    !default;
+$info:          $cyan     !default;
+$warning:       $yellow   !default;
+$danger:        $red      !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
@@ -486,7 +486,7 @@ $paragraph-margin-bottom:   0 !default;
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
   xs: 0,
-  sm: 480px,
+  sm: 475px,
   md: 768px,
   lg: 1024px,
   xl: 1110px,
